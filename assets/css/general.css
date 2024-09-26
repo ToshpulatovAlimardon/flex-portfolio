@@ -1,0 +1,239 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-color: #fff;
+  box-shadow: 0 5px 10px var(--shadow-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.navbar a {
+  padding: 5px;
+  margin: 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  transition: 0.3s;
+  color: #000;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: var(--primary-color);
+}
+
+/* ================
+====== Header =====
+=================== */
+.header {
+  width: 100%;
+  height: 90vh;
+  background-image: url("../images/header/header-bg.webp");
+  background-size: cover;
+  background-position: left;
+  margin-top: 70px;
+  color: #fff;
+}
+
+/* Header Wrapper */
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Header Info */
+.header-wrapper .header-info {
+  width: 50%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10%;
+}
+
+.header-info span {
+  font-size: 70px;
+  font-weight: 300;
+}
+
+.header-info h1 {
+  font-size: 70px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.header-info p {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+/* Header Img */
+.header-wrapper .header-img {
+  width: 50%;
+  height: 90vh;
+}
+
+.header-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ================
+==== Portfolio ====
+=================== */
+.portfolio h2 {
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+/* Portfolio Wrapper */
+.portfolio-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #fff;
+}
+
+/* Portfolio item */
+.portfolio-wrapper .portfolio-item {
+  width: 30%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.portfolio-item img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.portfolio-item a:hover {
+  color: var(--primary-color);
+}
+
+/* ================
+====== About ======
+=================== */
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-img {
+  width: 55%;
+}
+
+.about-img img {
+  width: 100%;
+}
+
+.about-info {
+  width: 45%;
+  margin-left: 50px;
+  color: #fff;
+}
+
+.about-info h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.about-info p {
+  font-size: 20px;
+  color: var(--text-color);
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+/* ================
+===== Contact =====
+=================== */
+#contact h2 {
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+/* Contact Wrapper */
+.contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Contact form */
+.contact-wrapper .contact-form {
+  width: 60%;
+  margin-right: 50px;
+}
+
+.contact-form h3 {
+  font-size: 28px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.contact-form input:not(.btn),
+.contact-form textarea {
+  width: 100%;
+  padding: 16px;
+  background-color: #333;
+  border: none;
+  margin-bottom: 16px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-form textarea::placeholder {
+  font-family: "Roboto", sans-serif;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+.contact-form .btn {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+/* Contact Details */
+.contact-wrapper .contact-details {
+  width: 40%;
+}
+
+.contact-details h3 {
+  font-size: 28px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.details-wrapper span {
+  color: #124374;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.details-wrapper a {
+  margin-bottom: 20px;
+  display: block;
+  transition: 0.3s;
+}
+
+.details-wrapper a:hover {
+  color: #124374;
+}
